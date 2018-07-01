@@ -1,0 +1,82 @@
+body {
+	background-color: #95a8db;
+}
+ h2{
+	color: #201cf2;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 900;
+
+}
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color:orange;
+}
+.input{
+	margin-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 60px;
+
+}
+.Enter-Amount{
+	margin-top: 20px;
+	margin-bottom: 15px;
+	padding:  15px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+	align-content: center;
+
+}
+inputs{
+	margin-top: 30px;
+	padding:  30px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+	align-content: center;
+
+}
+	
+
+.wrapper {
+	max-width: 500px;
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	padding: 15px;
+	margin: 30px auto;
+	position: relative;
+	-webkit-box-shadow: 0px 0px 21px -1px rgba(32,28,242,1);
+	-moz-box-shadow: 0px 0px 21px -1px rgba(32,28,242,1);
+    box-shadow: 0px 0px 21px -1px rgba(32,28,242,1);
+}
+#Amount-B{
+	width :100%;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+	align-content: center;
+
+
+}
+
+  #convert{ 
+    border: radius 5px 5px 5px;
+	size: 15px;
+	position: relative;
+	background-color: green;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	align-content: center;
+
+}
+	  
+	 
+	  
+
+  
+  
+

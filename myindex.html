@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="myindex.css" />
+    
+</head>
+<body>
+    <h2>Currency Converter</h2>
+    <div class="wrapper">
+        <input type="text" placeholder="Enter-Amount" id="Enter-Amount" class="Enter-Amount">
+        <div class="container">
+            <div class="currency">
+                <div class="select">
+                    <select name="select" id="currencycode-A"></select>
+                </div>
+                <div class="input">
+                    <input type="text" value="0.000" id="Amount-A">
+                </div>
+            </div>
+            <span><h3>click <b>convert</b>button to convert currency</h3></span>
+            <div class="currency">
+                <div class="select">
+                    <select name="select" id="currencycode-B"></select>
+                </div>
+                <div class="input">
+                    <input type="text" value="Results" id="Amount-B">
+                </div>
+            </div>
+        </div>
+        <input type="button" value="Convert" class="user-input" id="convert">
+    </div>
+    <script src="myindex.js"></script>
+</body>
+</html>
